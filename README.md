@@ -34,5 +34,5 @@ git clone [Responsive-app-landing-page.git](https://github.com/Harshitha-Loganat
 
 ## Design Reference
 
-- Design inspiration: [Figma Design]([link-to-figma-design](https://www.figma.com/community/file/1145991068621514311))
-- Figma Dev Mode: [Figma Dev Mode]([link-to-figma-dev-mode](https://www.figma.com/design/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1&m=dev))
+- Design inspiration: https://www.figma.com/community/file/1145991068621514311
+- Figma Dev Mode: [https://www.figma.com/design/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1&m=dev]([url](https://www.figma.com/design/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1&m=dev))
