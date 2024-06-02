@@ -24,7 +24,7 @@ To use or modify this landing page design for your own project:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone [Responsive-app-landing-page.git](https://github.com/Harshitha-Loganathan/Responsive-App-Landing-Page-Design)
+git clone https://github.com/Harshitha-Loganathan/Responsive-App-Landing-Page-Design/edit/main/README.md
 ```
 
 2. Open the `index.html` file in your preferred text editor.
@@ -35,4 +35,4 @@ git clone [Responsive-app-landing-page.git](https://github.com/Harshitha-Loganat
 ## Design Reference
 
 - Design inspiration: https://www.figma.com/community/file/1145991068621514311
-- Figma Dev Mode: [https://www.figma.com/design/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1&m=dev]([url](https://www.figma.com/design/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1&m=dev))
+- Figma Dev Mode: https://www.figma.com/design/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1&m=dev
