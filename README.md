@@ -24,7 +24,7 @@ To use or modify this landing page design for your own project:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/Harshitha-Loganathan/Responsive-App-Landing-Page-Design/edit/main/README.md
+git clone https://github.com/Harshitha-Loganathan/Responsive-App-Landing-Page-Design/tree/main
 ```
 
 2. Open the `index.html` file in your preferred text editor.
