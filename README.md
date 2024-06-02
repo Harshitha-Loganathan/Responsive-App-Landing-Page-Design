@@ -9,8 +9,6 @@ This project is a responsive app landing page designed using HTML and CSS. The l
 
 ## Preview
 
-![Preview](preview.png)
-
 ## Features
 
 - Clean and modern layout, focusing on simplicity and user experience.
@@ -26,7 +24,7 @@ To use or modify this landing page design for your own project:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/responsive-app-landing-page.git
+git clone [Responsive-app-landing-page.git](https://github.com/Harshitha-Loganathan/Responsive-App-Landing-Page-Design)
 ```
 
 2. Open the `index.html` file in your preferred text editor.
