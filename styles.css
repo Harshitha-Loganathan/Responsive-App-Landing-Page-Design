@@ -1,0 +1,503 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img.img1{
+    object-position: 10px 20px;
+}
+
+h1 {
+    text-align:left;
+    font-size: 20px;
+}
+
+.imgs{
+    background-image:url('shadow1.png'); 
+    background-repeat:no-repeat; 
+    background-position:right;
+    background-size: 400px 500px;
+    
+}
+
+header{
+    background-image: url("shadow.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 150px;
+    padding-left : 180px;
+}
+
+body {
+
+    font-family: 'Clash Display';
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background-color: white;
+}
+
+.cube {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 + 18px);
+    top: calc(50% - 24px/2 - 1608.5px);
+}
+
+.hero {
+    background-color: white;
+    padding: 1.5rem;
+font-size : 50px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero-headline {
+    line-height: 1;
+    font-size: 70px;
+    font-family: 'Clash Display';
+    text-align: left;
+    font-weight: bolder;
+    padding-left : 150px;
+    color: black;
+}
+
+.hero-subheadline {
+    text-align: left;
+    padding-left : 150px;
+    font-size: 25px;
+    margin-bottom: 0rem;
+    color: black;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-button {
+    padding: 20px;
+    margin-top : 40px;
+    margin-left: 200px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cta-button1 {
+    padding: 20px;
+    margin-top : 40px;
+    margin-right: 210px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.features {
+    padding: 0;
+}
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.feature-content {
+    flex: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-description {
+    color: #666;
+}
+
+.screenshots {
+    padding: 2rem;
+    text-align: center;
+}
+
+.screenshots-headline {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.screenshots-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screenshots-gallery img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.testimonials {
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonials-headline {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.testimonial-content {
+    flex: 1;
+}
+
+.testimonial-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-feedback {
+    color: #666;
+}
+
+.pricing {
+    padding: 2rem;
+    text-align: center;
+}
+
+.pricing-headline {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.pricing-plan-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-plan-price {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.pricing-plan-features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-plan-feature {
+    margin-bottom: 0.5rem;
+}
+
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-headline {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form input {
+    padding: 0.5rem;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+body1{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.containerz {
+  margin-left:80px;
+  margin-right:80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 40%; 
+  margin: 10px;
+  padding: 20px;
+  background-color: #ff5555;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.card1 {
+  width: 40%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.card h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.card1 h1 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: white;
+  font-size: 20px;
+}
+
+.card1 p {
+  color: black;
+line-height:1.5;
+  font-size: 20px;
+}
+
+body2 {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+.containerz {
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      padding: 20px;
+}
+
+.logo {
+      align-items: left;
+}
+
+.logo img {
+      width: 150px;
+      height: 40px;
+      margin-right: 10px;
+}
+
+.logo h1 {
+      font-size: 24px;
+      display: flex;
+      margin: 0;
+}
+
+.links, .legal, .product, .newsletter {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-right: 40px;
+}
+
+.links ul, .legal ul, .product ul, .newsletter ul {
+      list-style: none;
+      padding: 0;
+}
+
+.links li, .legal li, .product li, .newsletter li {
+      margin-bottom: 10px;
+  display: flex;
+
+}
+
+.links a, .legal a, .product a, .newsletter a {
+      text-decoration: none;
+      display: flex;
+      color: #333;
+}
+
+.newsletter form {
+      display: flex;
+      display: flex;
+}
+
+.newsletter input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+}
+
+.newsletter button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.footer {
+      background-color: white;
+      padding: 10px;
+      color: black;
+      text-align: center;
+      font-size: 25px; background-image: url('Frame.png');         
+}
+
+.footer.subscribe {
+      margin-bottom: 10px;
+}
+
+.footer.subscribe input[type="email"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 200px;
+}
+
+.footer.subscribe button[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.footer.subscribe button[type="submit"]:hover {
+      background-color: #3e8e41;
+}
+
+body3 {
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerzz {
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+      margin-top: 20px;
+}
+
+.button1 {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 4px;
+}
+
+.container4 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+}
+
+.nav4 {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+}
+
+.nav4 li {
+      margin-right: 20px;
+}
+
+.nav4 a {
+      text-decoration: none;
+  
+}
+
+.button4 {
+      background-color: black;
+      margin-top:10px;
+      margin-left:200px;
+      color: white;
+      padding: 8px 45px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+}
+
